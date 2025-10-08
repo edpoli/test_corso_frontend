@@ -1,0 +1,15 @@
+
+
+.item_right {
+
+    margin-left: auto;
+}
+
+#tesla_scritta:hover{
+    cursor: pointer;
+}
+
+#veicoli:hover, #ricarica:hover, #energia:hover,#scoprire:hover, #shop:hover {
+
+text-decoration: underline ;
+}
