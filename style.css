@@ -24,6 +24,7 @@ font-weight: bolder;
 #veicoli:hover, #ricarica:hover, #energia:hover,#scoprire:hover, #shop:hover {
 
 text-decoration: underline ;
+cursor: pointer;
 }
 
 
@@ -56,3 +57,17 @@ top: 50px;
     width: 100%;
 }
 
+
+.card_y {
+
+    
+    bottom: 20px;
+    left: 20px;
+}
+
+.berlina {
+ 
+
+
+
+}
