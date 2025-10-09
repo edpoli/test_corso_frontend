@@ -1,6 +1,6 @@
 # Replica sito Tesla.com/ita
 ## Sviluppato con Corso Frontend
-#### Ottobre 2025
+### *Ottobre 2025*
 
 ---
 
