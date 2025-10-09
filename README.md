@@ -12,3 +12,5 @@
 | HTML |Markup      | 5    |
 | CSS  |Style       | 4    |  
        
+```bash
+Avviare Golive da VS-Code
