@@ -52,7 +52,7 @@
 
 
 
- <section id="hero" class="mt-5 pt-4">
+ <section id="hero" class="">
 
     <div id="carouselTesla" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
 
@@ -108,11 +108,11 @@
 
 <section class="modelli">
 
- <div class="container">   
+ <div class="container-fluid">   
 
     <div class="d-flex flex-wrap justify-content-center align-items-center gap-3 position-relative py-5">
 
-            <div class="card position-relative" style="width: 600px;">
+            <div class="card position-relative carta-modello" style="width: 600px;">
                 <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-Y-Performance-Desktop-EMEA.png" alt="">
                 <div class="card-text position-absolute text-white ms-3 mt-3 card_y">
                     <h1 >Model Y</h1>
@@ -122,7 +122,7 @@
                 </div>
             </div>
 
-             <div class="card position-relative" style="width: 600px;">
+             <div class="card position-relative carta-modello" style="width: 600px;">
                     <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-3-Desktop.png" alt="">
                 <div class="card-text position-absolute text-white ms-3 mt-3 card_y">
                     <p class="berlina">Berlina sportiva</p>
@@ -132,7 +132,7 @@
                 </div>
             </div>
 
-             <div class="card position-relative" style="width: 600px;">
+             <div class="card position-relative carta-modello" style="width: 600px;">
                     <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-S-Desktop.png" alt="">
                 <div class="card-text position-absolute text-white ms-3 mt-3 card_y">
                     <p>Berlina di lusso</p>
@@ -143,12 +143,12 @@
                 </div>
             </div>
 
-            <div class="card position-relative" style="width: 600px;">
+            <div class="card position-relative carta-modello" style="width: 600px;">
                 <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-X-Desktop.png" alt="">
                 <div class="card-text position-absolute text-white ms-3 mt-3 card_y">
                     <p>SUV di lusso</p>
-                    <h4> Disponibile con ricariche Supercharger illimitate gratuite e Premium Connectivity¹</h4>
                     <h1 >Model X</h1>
+                    <h4> Disponibile con ricariche Supercharger illimitate gratuite e Premium Connectivity¹</h4>
                     <button class="btn btn-primary">Ordina ora</button>
                     <button class="btn btn-secondary bg-white text-black">Consegna veloce</button>
                 </div>
@@ -167,7 +167,7 @@
 <div class="container-fluid py-5">
     <div class="row">
         <div class="col-md-6">
-            <div class="card d-flex align-items-center flex-row prova_tesla" style="background: #f4f4f4;">
+            <div class="card d-flex align-items-center flex-row prova_tesla shadow-lg" style="background: #f4f4f4;">
                 <div class="card-body">
                     <h1>Prova una Tesla</h1>
                     <h5 class="text-black-50">Prenota oggi stesso un test drive.</h5>
@@ -178,13 +178,11 @@
                 <img class="card-img-right rounded-end" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Grid-Test-Drive-Global.png" alt="">
             </div>
 
-        
-
         </div>
 
 
          <div class="col-md-6">
-            <div class="card d-flex align-items-center flex-row prova_tesla" style="background: #f4f4f4;">
+            <div class="card d-flex align-items-center flex-row prova_tesla shadow-lg" style="background: #f4f4f4;">
                 <div class="card-body">
                     <h1>Tesla Shop</h1>
                     <h5 class="text-black-50">Acquista accessori per il veicolo e articoli di merchandising a marchio Tesla.</h5>
@@ -192,11 +190,9 @@
                 </div>
 
 
-                <img class="card-img-right rounded-end" src= "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Grid-Accessories-Global.png"
-
-        
-
-        </div>
+                <img class="card-img-right rounded-end" src= "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Grid-Accessories-Global.png">
+            </div>
+         </div>
 
 
 
@@ -259,41 +255,46 @@
 
 <!-- Section con 2 cards "Powerwall"  "Megapack"-->
 
-<section class="modelli">
+<section class="mb-3 powerwall">
 
- <div class="container">   
+ <div class="container-fluid">   
 
-    <div class="d-flex flex-wrap justify-content-center align-items-center gap-3 position-relative py-5">
+        <div class="row d-flex flex-row">
+            <div class="d-flex justify-content-center align-items-center gap-3 position-relative py-5">
 
-            <div class="card position-relative carta">
-                <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Powerwall-Desktop.png" alt="">
-                <div class="card-text position-absolute text-white ms-3 mt-3 card_y">
-                <h1 >Powerwall</h1>
-                <h4> Tieni le luci accese durante i blackout</h4>
-                <button class="btn btn-primary">Ricevi preventivo</button>
-            <button class="btn btn-secondary bg-white text-black">Scopri di più</button>
-                </div>
-            </div>
+                    <div class="card position-relative card-pwr">
+                        <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Powerwall-Desktop.png" alt="">
+                        <div class="card-text position-absolute text-white ms-3 mt-3 card_y">
+                            <h1 >Powerwall</h1>
+                            <h4> Tieni le luci accese durante i blackout</h4>
+                            <button class="btn btn-primary">Ricevi preventivo</button>
+                            <button class="btn btn-light">Scopri di più</button>
+                        </div>
+                    </div>
 
-             <div class="card position-relative carta">
-                <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Megapack_CaseStudy_Australia_D" alt="">
-                <div class="card-text position-absolute text-white ms-3 mt-3 card_y">
-                <h1 >Megapack</h1>
-                <h4> Enormi batterie per un supporto energetico massiccio</h4>
-                <button class="btn btn-primary">Scopri di più</button>
+                    <div class="card position-relative card-mega">
+                        <img class="card-img" src="https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Megapack_CaseStudy_Australia_D" alt="">
+                        <div class="card-text position-absolute text-white ms-3 mt-3 card_y">
+                            <h1 >Megapack</h1>
+                            <h4> Enormi batterie per un supporto energetico massiccio</h4>
+                            <button class="btn btn-primary">Scopri di più</button>
+                        </div>
+                    </div>
 
-                </div>
-            </div>
-
-
-            
+             </div>
+                
+        </div>
+    
     </div>
+
+
+
 </div>
 </section>
 
 <!-- Section Policy e contatti -->
 
-<section class="text-center align-items-center">
+<section class="text-center align-items-center mb-2">
     
     <div class="policy" style="font-size: 10px;">
         <small>¹L'offerta relativa a ricariche Supercharger illimitate gratuite e Premium Connectivity è valida solo per i nuovi ordini personalizzati e per i veicoli Model S e Model X preconfigurati ordinati dopo il 6 febbraio 2025. Questa offerta è cumulabile con altre offerte finanziarie. Questa offerta è valida per i veicoli utilizzati per i test drive e quelli degli showroom. Da questa offerta sono esclusi i veicoli usati certificati. Questa offerta è valida per un periodo di tempo limitato e può essere annullata in qualsiasi momento. Tesla non garantisce la disponibilità del veicolo entro il termine dell‘offerta. Il vantaggio di Premium Connectivity e delle ricariche gratuite alle stazioni Supercharger è collegato al VIN del veicolo e al primo conducente al quale è stato consegnato il veicolo. Non è possibile trasferire Premium Connectivity e le ricariche gratuite alle stazioni Supercharger a un altro veicolo o a un‘altra persona in caso di passaggio di proprietà. Le ricariche gratuite alle stazioni Supercharger possono essere utilizzate solo presso le stazioni Supercharger di proprietà di Tesla. Negli ordini aziendali deve essere specificato il nome del conducente che riceve la consegna affinché tale conducente possa approfittare del vantaggio. Non è possibile trasferire, riscattare o scambiare con crediti o contanti Premium Connectivity e le ricariche gratuite alle stazioni Supercharger. Coloro che approfittano di questa promozione sono comunque soggetti ad addebiti o "tariffe di occupazione" e alla Supercharger Fair Use Policy.</small>

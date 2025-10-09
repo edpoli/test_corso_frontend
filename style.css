@@ -95,6 +95,14 @@ cursor: pointer;
 }
 
 
+.carta-modello:hover {
+transform: scale(1.03);
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
 .card_y {
 
     
@@ -171,5 +179,23 @@ margin-right: 200px;
 
 
 
-/*footer*/
+/*section powerwall*/
 
+
+.powerwall {
+
+    padding: 20px;
+}
+
+.card-pwr {
+
+width: 100%;
+
+} 
+
+.card-mega  {
+
+width: 90%;
+
+
+}
