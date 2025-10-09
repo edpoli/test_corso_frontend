@@ -30,31 +30,59 @@ cursor: pointer;
 
 /*hero*/
 
-.hero, section {
+.carousel-caption{
 
-height: 100vh;
-width: 100%;
-}
-
-
-.model3, .modely {
-
-
-position: absolute;
-top: 50px;
+    top: 0;
+    bottom: 0;
+    transform: translateY(-25%);
 
 }
 
-.carousel-item {
-height: 100vh;
-object-fit:cover;
+.btn-primary{
 
+    background-color: #3E6AE1;
+
+}
+
+.btn-primary:hover{
+
+    background-color: #365BBA;
+}
+
+
+.carousel-caption h1 {
+
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+.carousel-caption .btn {
+
+   font-weight: 500;
+}
+
+.carousel-item img {
+
+    height: 100vh;
+    object-fit: cover;
 }
 
 
 
+/* 2 div  */
 
 
+
+
+
+
+.prova_tesla img {
+
+    width: 30%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+
+}
 
 
 /*section*/
