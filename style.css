@@ -79,27 +79,69 @@ object-fit:cover;
 /* sezione 2 div */
 
 
+.contenitore {
 
-.prova-tesla {
-
-
-
-}
-
-
-.contenitore_img {
-
-    height: 100vh;
-    width: 100%;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     flex-shrink: 0;
 
 }
 
-.contenitore_img img {
+.contenitore img {
 
-    width: 40%;
-    height: 100%;
+    width: 100%;
+    
     object-fit: cover; /* proporzionata*/
 
 }
+
+.section_div {
+
+    height: 300px;
+}
+
+.text-cnt {
+
+    max-width: 500px;
+
+}
+
+
+
+
+
+
+
+/*due cards*/
+
+.carta {
+
+
+width: 600px;
+height: 500px;
+
+}
+
+
+.policy {
+
+
+margin-left: 200px;
+margin-right: 200px;
+
+
+}
+
+
+.contatti:hover {
+
+
+    cursor: pointer;
+}
+
+
+
+
+/*footer*/
+
